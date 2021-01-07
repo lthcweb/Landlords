@@ -10,3 +10,15 @@ D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.H
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CopyComplete
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Hotfix.dll
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Hotfix.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\libkcp.dylib
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\libkcp.so
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.deps.json
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csprojAssemblyReference.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfoInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.AssemblyInfo.cs
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CoreCompileInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Server.Hotfix.csproj.CopyComplete
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Hotfix.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\obj\Debug\Hotfix.pdb

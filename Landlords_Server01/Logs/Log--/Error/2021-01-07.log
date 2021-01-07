@@ -36,3 +36,42 @@ Awake<P1,P2> at offset 527 in file:line:column D:\ProjectUnity\ET\Landlords\Land
 Error at offset 108 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
 Error at offset 59 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
 
+2021-01-07 19:38:21.6843   System.IO.FileNotFoundException: Could not find file 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'.
+File name: 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 11
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18 
+ Main at offset 232 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:18:5
+Error at offset 132 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 58 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-07 19:39:09.1446   System.IO.FileNotFoundException: Could not find file 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'.
+File name: 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 11
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18 
+ Main at offset 233 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:18:5
+Error at offset 128 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 59 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-07 19:41:47.9131   System.IO.FileNotFoundException: Could not find file 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'.
+File name: 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 11
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18 
+ Main at offset 232 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:18:5
+Error at offset 132 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 58 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+

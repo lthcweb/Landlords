@@ -37,6 +37,14 @@ namespace ETModel
 				Game.Scene.AddComponent<OpcodeTypeComponent>();
 				Game.Scene.AddComponent<NetOuterComponent>();
 
+
+				//添加UI组件
+				Game.Scene.AddComponent<UIComponent>();
+				Game.Scene.AddComponent<GamerComponent>();
+
+				//添加消息分发组件MessageDispatcherComponent
+				Game.Scene.AddComponent<MessageDispatcherComponent>();
+
 				//Test05
 				//练习1
 				/*
@@ -46,13 +54,19 @@ namespace ETModel
 				Game.Scene.AddComponent<FrameTestComponent>();
 
 				Game.EventSystem.Load();
+				
+				//Test09
+				//练习1
+				Game.Scene.AddComponent<Test0901Component>();
+				Game.EventSystem.Run(UIEventType.EndLandLogin);
 				*/
 
-				//添加UI组件
-				Game.Scene.AddComponent<UIComponent>();
 
 				//执行斗地主初始事件，也就是创建LandLogin界面
 				Game.EventSystem.Run(UIEventType.LandInitSceneStart);
+
+				
+
 
 
 				//测试发送给服务端一条文本消息

@@ -99,3 +99,13 @@ D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobu
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CopyComplete
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.dll
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Google.Protobuf.deps.json
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Google.Protobuf.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Google.Protobuf.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csprojAssemblyReference.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfoInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.AssemblyInfo.cs
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CoreCompileInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.csproj.CopyComplete
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\Google.Protobuf\obj\Debug\Google.Protobuf.pdb

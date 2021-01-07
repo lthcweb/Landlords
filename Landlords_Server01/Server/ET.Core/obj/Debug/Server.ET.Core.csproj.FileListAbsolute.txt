@@ -10,3 +10,15 @@ D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.ET.Core.csproj.CopyComplete
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\ET.Core.dll
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\ET.Core.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\libkcp.dylib
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\libkcp.so
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\ET.Core.deps.json
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\ET.Core.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\ET.Core.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.ET.Core.csprojAssemblyReference.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.ET.Core.AssemblyInfoInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.ET.Core.AssemblyInfo.cs
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.ET.Core.csproj.CoreCompileInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\Server.ET.Core.csproj.CopyComplete
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\ET.Core.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\obj\Debug\ET.Core.pdb

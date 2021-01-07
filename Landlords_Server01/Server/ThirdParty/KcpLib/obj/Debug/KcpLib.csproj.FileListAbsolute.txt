@@ -20,3 +20,13 @@ D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Deb
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
 D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\libkcp.dylib
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\libkcp.so
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\KcpLib.deps.json
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\KcpLib.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\KcpLib.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyInfoInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.AssemblyInfo.cs
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb

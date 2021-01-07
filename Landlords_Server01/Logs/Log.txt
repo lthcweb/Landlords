@@ -25,3 +25,48 @@
 2021-01-07 11:15:58.5929 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
 2021-01-07 13:56:55.9212 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
 2021-01-07 13:57:02.2605 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-01-07 19:38:21.6843   (Program.cs:18) System.IO.FileNotFoundException: Could not find file 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'.
+File name: 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 11
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18
+2021-01-07 19:39:09.1446   (Program.cs:18) System.IO.FileNotFoundException: Could not find file 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'.
+File name: 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 11
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18
+2021-01-07 19:41:47.9131   (Program.cs:18) System.IO.FileNotFoundException: Could not find file 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'.
+File name: 'E:\ProjectUnity\ET\Landlords\Landlords_Server01\Bin\Hotfix.pdb'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 11
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18
+2021-01-07 19:42:46.0971 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-08 00:26:47.1552   (Program.cs:18) System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load type 'ETModel.C2G_PlayerInfo' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'ETModel.C2G_LoginGate' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'ETModel.C2M_TestActorRequest' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Could not load type 'ETModel.C2R_Login' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at ETModel.EventSystem.Add(DLLType dllType, Assembly assembly) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Object\EventSystem.cs:line 57
+   at App.Program.Main(String[] args) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\App\Program.cs:line 18
+System.TypeLoadException: Could not load type 'ETModel.C2G_PlayerInfo' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'ETModel.C2G_LoginGate' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'ETModel.C2M_TestActorRequest' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+System.TypeLoadException: Could not load type 'ETModel.C2R_Login' from assembly 'ET.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2021-01-08 00:34:12.2051 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-08 00:34:26.8480 AllServer 0001 (Session.cs:142) { "_t" : "A0002_Login_C2R", "RpcId" : 1, "Account" : "a", "Password" : "a" }
+2021-01-08 00:34:26.8480 AllServer 0001 (MessageDispatherComponentSystem.cs:84) 消息没有处理: 10005 { "_t" : "A0002_Login_C2R", "RpcId" : 1, "Account" : "a", "Password" : "a" }
