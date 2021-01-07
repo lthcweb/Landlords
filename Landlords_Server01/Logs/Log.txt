@@ -1,0 +1,27 @@
+2020-04-21 02:16:47.8768 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-04-21 04:27:39.8397 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-07 11:10:14.7741   (StartConfigComponent.cs:56) config错误: { "_t" : "StartConfig", "_id" : NumberLong("98547768819754"), "C" : [{ "_t" : "OuterConfig", "Address" : "127.0.0.1:10002", "Address2" : "127.0.0.1:10002" }, { "_t" : "InnerConfig", "Address" : "127.0.0.1:20002" }, { "_t" : "HttpConfig", "Url" : "http://*:8080/", "AppId" : 0, "AppKey" : "", "ManagerSystemUrl" : "" }, { "_t" : "DBConfig", "ConnectionString" : "mongodb://127.0.0.1:27017/", "DBName" : "Landlords01" }], "AppId" : 1, "AppType" : "AllServer", "ServerIP" : "*" } System.TypeInitializationException: The type initializer for 'ETModel.MongoHelper' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'MongoDB.Bson.Serialization.BsonClassMap' threw an exception.
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'type')
+   at System.Reflection.IntrospectionExtensions.GetTypeInfo(Type type)
+   at MongoDB.Bson.Serialization.BsonClassMap..cctor() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\BsonClassMap.cs:line 40
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMap.LookupClassMap(Type classType) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\BsonClassMap.cs:line 348
+   at ETModel.MongoHelper..cctor() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\MongoHelper.cs:line 23
+   --- End of inner exception stack trace ---
+   at ETModel.MongoHelper.FromJson[T](String str) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Helper\MongoHelper.cs:line 38
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Component\StartConfigComponent.cs:line 56
+2021-01-07 11:10:15.0287   (EventSystem.cs:315) System.Exception: not found startconfig: 1
+ ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Object\EventSystem.cs:line 315
+2021-01-07 11:14:27.0962 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-07 11:15:58.5929 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-01-07 13:56:55.9212 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-07 13:57:02.2605 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
