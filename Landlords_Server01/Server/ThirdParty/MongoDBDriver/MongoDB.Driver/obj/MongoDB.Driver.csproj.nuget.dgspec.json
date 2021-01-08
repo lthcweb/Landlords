@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {}
+    "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {}
   },
   "projects": {
-    "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+    "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectUniqueName": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
         "projectName": "MongoDB.Bson",
-        "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+        "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
         "packagesPath": "C:\\Users\\lthcw\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
+        "outputPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+    "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+        "projectUniqueName": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
         "projectName": "MongoDB.Driver.Core",
-        "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+        "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
         "packagesPath": "C:\\Users\\lthcw\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
+        "outputPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
+    "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj": {
       "version": "0.0.0-local",
       "restore": {
-        "projectUniqueName": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
+        "projectUniqueName": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
         "projectName": "MongoDB.Driver",
-        "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
+        "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\MongoDB.Driver.csproj",
         "packagesPath": "C:\\Users\\lthcw\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\obj\\",
+        "outputPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -165,11 +165,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-                "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+              "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+                "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
               },
-              "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
-                "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
+              "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj": {
+                "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj"
               }
             }
           }

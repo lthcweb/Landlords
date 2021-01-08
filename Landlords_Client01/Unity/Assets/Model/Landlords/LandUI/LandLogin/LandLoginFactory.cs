@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace ETModel
 {
-
     [UIFactory(LandUIType.LandLogin)]
     public class LandLoginFactory : IUIFactory
     {

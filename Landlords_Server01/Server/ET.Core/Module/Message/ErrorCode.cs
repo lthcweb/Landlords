@@ -38,6 +38,13 @@ namespace ETModel
 		public const int ERR_Exception = 200000;
 		
 		public const int ERR_AccountOrPasswordError = 200102;
+
+		//自定义错误
+		public const int ERR_AccountAlreadyRegisted = 300001;
+		public const int ERR_RepeatedAccountExist = 300002;
+		public const int ERR_UserNotOnline = 300003;
+		public const int ERR_CreateNewCharacter = 300007;
+
 		//-----------------------------------
 		public static bool IsRpcNeedThrowException(int error)
 		{

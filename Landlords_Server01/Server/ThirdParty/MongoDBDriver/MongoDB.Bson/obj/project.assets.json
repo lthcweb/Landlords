@@ -826,11 +826,11 @@
   "project": {
     "version": "0.0.0-local",
     "restore": {
-      "projectUniqueName": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+      "projectUniqueName": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
       "projectName": "MongoDB.Bson",
-      "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
+      "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj",
       "packagesPath": "C:\\Users\\lthcw\\.nuget\\packages\\",
-      "outputPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
+      "outputPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

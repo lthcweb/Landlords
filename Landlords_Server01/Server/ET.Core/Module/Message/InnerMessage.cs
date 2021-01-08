@@ -3,6 +3,31 @@ using System.Collections.Generic;
 namespace ETModel
 {
 /// <summary>
+/// 斗地主内网消息
+/// </summary>
+	[Message(InnerOpcode.A0006_GetLoginKey_R2G)]
+	public partial class A0006_GetLoginKey_R2G: IRequest
+	{
+		public int RpcId { get; set; }
+
+		public long UserID { get; set; }
+
+	}
+
+	[Message(InnerOpcode.A0006_GetLoginKey_G2R)]
+	public partial class A0006_GetLoginKey_G2R: IResponse
+	{
+		public int RpcId { get; set; }
+
+		public int Error { get; set; }
+
+		public string Message { get; set; }
+
+		public long GateLoginKey { get; set; }
+
+	}
+
+/// <summary>
 /// ET
 /// </summary>
 	[Message(InnerOpcode.M2M_TrasferUnitRequest)]

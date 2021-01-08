@@ -3402,11 +3402,11 @@
   "project": {
     "version": "0.0.0-local",
     "restore": {
-      "projectUniqueName": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+      "projectUniqueName": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
       "projectName": "MongoDB.Driver.Core",
-      "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
+      "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\MongoDB.Driver.Core.csproj",
       "packagesPath": "C:\\Users\\lthcw\\.nuget\\packages\\",
-      "outputPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
+      "outputPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Driver.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3426,8 +3426,8 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
-              "projectPath": "E:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
+            "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj": {
+              "projectPath": "D:\\ProjectUnity\\ET\\Landlords\\Landlords_Server01\\Server\\ThirdParty\\MongoDBDriver\\MongoDB.Bson\\MongoDB.Bson.csproj"
             }
           }
         }

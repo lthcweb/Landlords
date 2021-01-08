@@ -55,7 +55,12 @@ namespace App
 				//这里需要加上DBCacheComponent才能操作MongoDB
 				Game.Scene.AddComponent<DBCacheComponent>();
 				Game.Scene.AddComponent<DBProxyComponent>();
-				
+
+				//泰学教程
+				Game.Scene.AddComponent<UserComponent>();
+				Game.Scene.AddComponent<SessionKeyComponent>();
+				Game.Scene.AddComponent<SessionUserComponent>();
+
 				// location server需要的组件
 				Game.Scene.AddComponent<LocationComponent>();
 				// 访问location server的组件
