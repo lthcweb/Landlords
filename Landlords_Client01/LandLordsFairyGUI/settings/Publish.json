@@ -1,0 +1,19 @@
+{
+	"atlasSetting":{
+		"paging":true,
+		"sizeOption":"pot"
+	},
+	"binaryFormat":true,
+	"codeGeneration":{
+		"classNamePrefix":"UI_",
+		"codePath":"",
+		"codeType":"",
+		"getMemberByName":false,
+		"ignoreNoname":false,
+		"memberNamePrefix":"m_",
+		"packageName":""
+	},
+	"compressDesc":true,
+	"packageCount":2,
+	"path":"D:\\ProjectUnity\\ET\\Landlords\\Landlords_Client01\\Unity\\Assets\\Res\\FairyGUI"
+}

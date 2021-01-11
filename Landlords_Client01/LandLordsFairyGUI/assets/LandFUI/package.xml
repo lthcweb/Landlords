@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4zv3tw5y">
+  <resources>
+    <image id="e3631" name="pic1.jpg" path="/01_LandLogin/Resource/" exported="true" scale9grid="480,270,800,498"/>
+    <component id="d4502" name="LandLogin.xml" path="/01_LandLogin/" exported="true"/>
+    <image id="d4505" name="b4.png" path="/01_LandLogin/Resource/" exported="true"/>
+    <image id="d4506" name="b5.png" path="/01_LandLogin/Resource/" exported="true"/>
+    <component id="d450a" name="AcountInput.xml" path="/01_LandLogin/" exported="true"/>
+    <component id="hagnc" name="Button.xml" path="/01_LandLogin/" exported="true"/>
+    <image id="hagnf" name="8.png" path="/01_LandLogin/Resource/" exported="true" scale="9grid" scale9grid="31,26,62,52"/>
+    <component id="i14kj" name="PasswordInput.xml" path="/01_LandLogin/" exported="true"/>
+    <component id="v0122m" name="NoneFGUI.xml" path="/00_None/" exported="true"/>
+    <sound id="tmjj2n" name="7571.mp3" path="/01_LandLogin/Resource/"/>
+  </resources>
+  <publish name="LandFUI"/>
+</packageDescription>

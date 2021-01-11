@@ -1,0 +1,120 @@
+2021-01-11 12:18:43.3278 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 296 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 12:19:16.3176 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 296 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 12:45:11.4097 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 296 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:15:05.7370 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 296 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:15:05.7840 AllServer 0001 消息没有处理: 10009 { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 3 } 
+ OnRead at offset 76 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 497 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 157 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 91 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3589 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 312 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:34:47.1862 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 296 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:34:47.2311 AllServer 0001 消息没有处理: 10009 { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 3 } 
+ OnRead at offset 76 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 497 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 157 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 91 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3589 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 312 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:37:12.1756 AllServer 0001 重复登录！ 
+ Handle at offset 504 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Run at offset 296 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 609 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A0003_LoginGateHanler.cs:34:17
+Add at offset 210 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Landlords\Component\UserComponent.cs:25:17
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:37:12.2374 AllServer 0001 消息没有处理: 10009 { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 3 } 
+ OnRead at offset 76 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 497 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 157 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 91 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3589 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 312 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-11 14:37:36.9949 AllServer 0001 消息没有处理: 10009 { "_t" : "A1001_GetUserInfo_C2G", "RpcId" : 3 } 
+ OnRead at offset 76 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 497 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 157 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 91 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3589 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 312 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+

@@ -63,8 +63,8 @@ namespace ETModel
 
 
 				//执行斗地主初始事件，也就是创建LandLogin界面
-				//Game.EventSystem.Run(UIEventType.LandInitSceneStart);
-				Game.EventSystem.Run(UIEventType.LandInitLobby);
+				Game.EventSystem.Run(UIEventType.LandInitSceneStart);
+				//Game.EventSystem.Run(UIEventType.LandInitLobby);
 
 				
 
