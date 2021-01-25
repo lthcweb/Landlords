@@ -1,0 +1,7 @@
+2021-01-26 00:01:21.0352 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-26 00:01:39.8092 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-26 00:01:39.8254 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-26 00:03:47.3335 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-26 00:03:47.3495 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-26 00:04:24.1693 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-26 00:04:24.1844 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线

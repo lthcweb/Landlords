@@ -30,3 +30,4 @@ E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Deb
 E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
 E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
 E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb
+E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csprojAssemblyReference.cache

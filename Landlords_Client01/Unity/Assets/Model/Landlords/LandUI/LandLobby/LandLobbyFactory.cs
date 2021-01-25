@@ -11,7 +11,7 @@ namespace ETModel
             try
             {
                 //加载AB包
-                ResourcesComponent resourcesComponent = Game.Scene.GetComponent<ResourcesComponent>();
+                ResourcesComponent resourcesComponent = ETModel.Game.Scene.GetComponent<ResourcesComponent>();
                 resourcesComponent.LoadBundle($"{type}.unity3d");
 
                 //加载大厅界面预设并生成实例

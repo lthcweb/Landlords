@@ -14,19 +14,20 @@ message G2C_TestMessage // IResponse
 	int32 Error = 91;
 	string Message = 92;
 }
-//客户端登陆网关请求
-message A0003_LoginGate_C2G // IRequest
+
+//客户端注册请求
+message A0001_Register_C2R // IRequest
 {
 	int32 RpcId = 90;
-	int64 GateLoginKey = 1;
+	string Account = 1; //假定的账号
+	string Password = 2; //假定的密码
 }
-//客户端登陆网关返回
-message A0003_LoginGate_G2C // IResponse
+//客户端注册请求回复
+message A0001_Register_R2C // IResponse
 {
 	int32 RpcId = 90;
 	int32 Error = 91;
 	string Message = 92;
-	int64 UserID = 1;
 }
 
 //客户端登陆认证请求
@@ -46,21 +47,22 @@ message A0002_Login_R2C // IResponse
 	int64 GateLoginKey = 2;
 }
 
-//客户端注册请求
-message A0001_Register_C2R // IRequest
+//客户端登陆网关请求
+message A0003_LoginGate_C2G // IRequest
 {
 	int32 RpcId = 90;
-	string Account = 1; //假定的账号
-	string Password = 2; //假定的密码
+	int64 GateLoginKey = 1;
 }
-
-//客户端注册请求回复
-message A0001_Register_R2C // IResponse
+//客户端登陆网关返回
+message A0003_LoginGate_G2C // IResponse
 {
 	int32 RpcId = 90;
 	int32 Error = 91;
 	string Message = 92;
+	int64 UserID = 1;
 }
+
+
 
 //获取用户信息
 message A1001_GetUserInfo_C2G // IRequest
@@ -106,6 +108,20 @@ message A1002_SetUserInfo_G2C // IResponse
 	string Email = 5;
 	string Sex = 6;
 	string Title = 7;
+}
+
+//退出登录
+message A1003_ClientLogout_C2G // IRequest
+{
+	int32 RpcId = 90;
+}
+
+//返回退出登录
+message A1003_ClientLogout_G2C // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
 }
 
 //ET----

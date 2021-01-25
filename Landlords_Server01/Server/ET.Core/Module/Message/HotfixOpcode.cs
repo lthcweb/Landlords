@@ -9,13 +9,13 @@ namespace ETModel
 	[Message(HotfixOpcode.G2C_TestMessage)]
 	public partial class G2C_TestMessage : IResponse {}
 
-//客户端登陆网关请求
-	[Message(HotfixOpcode.A0003_LoginGate_C2G)]
-	public partial class A0003_LoginGate_C2G : IRequest {}
+//客户端注册请求
+	[Message(HotfixOpcode.A0001_Register_C2R)]
+	public partial class A0001_Register_C2R : IRequest {}
 
-//客户端登陆网关返回
-	[Message(HotfixOpcode.A0003_LoginGate_G2C)]
-	public partial class A0003_LoginGate_G2C : IResponse {}
+//客户端注册请求回复
+	[Message(HotfixOpcode.A0001_Register_R2C)]
+	public partial class A0001_Register_R2C : IResponse {}
 
 //客户端登陆认证请求
 	[Message(HotfixOpcode.A0002_Login_C2R)]
@@ -25,13 +25,13 @@ namespace ETModel
 	[Message(HotfixOpcode.A0002_Login_R2C)]
 	public partial class A0002_Login_R2C : IResponse {}
 
-//客户端注册请求
-	[Message(HotfixOpcode.A0001_Register_C2R)]
-	public partial class A0001_Register_C2R : IRequest {}
+//客户端登陆网关请求
+	[Message(HotfixOpcode.A0003_LoginGate_C2G)]
+	public partial class A0003_LoginGate_C2G : IRequest {}
 
-//客户端注册请求回复
-	[Message(HotfixOpcode.A0001_Register_R2C)]
-	public partial class A0001_Register_R2C : IResponse {}
+//客户端登陆网关返回
+	[Message(HotfixOpcode.A0003_LoginGate_G2C)]
+	public partial class A0003_LoginGate_G2C : IResponse {}
 
 //获取用户信息
 	[Message(HotfixOpcode.A1001_GetUserInfo_C2G)]
@@ -48,6 +48,14 @@ namespace ETModel
 //返回设置用户信息
 	[Message(HotfixOpcode.A1002_SetUserInfo_G2C)]
 	public partial class A1002_SetUserInfo_G2C : IResponse {}
+
+//退出登录
+	[Message(HotfixOpcode.A1003_ClientLogout_C2G)]
+	public partial class A1003_ClientLogout_C2G : IRequest {}
+
+//返回退出登录
+	[Message(HotfixOpcode.A1003_ClientLogout_G2C)]
+	public partial class A1003_ClientLogout_G2C : IResponse {}
 
 //ET----
 	[Message(HotfixOpcode.C2R_Login)]
@@ -93,27 +101,29 @@ namespace ETModel
 	{
 		 public const ushort C2G_TestMessage = 10001;
 		 public const ushort G2C_TestMessage = 10002;
-		 public const ushort A0003_LoginGate_C2G = 10003;
-		 public const ushort A0003_LoginGate_G2C = 10004;
+		 public const ushort A0001_Register_C2R = 10003;
+		 public const ushort A0001_Register_R2C = 10004;
 		 public const ushort A0002_Login_C2R = 10005;
 		 public const ushort A0002_Login_R2C = 10006;
-		 public const ushort A0001_Register_C2R = 10007;
-		 public const ushort A0001_Register_R2C = 10008;
+		 public const ushort A0003_LoginGate_C2G = 10007;
+		 public const ushort A0003_LoginGate_G2C = 10008;
 		 public const ushort A1001_GetUserInfo_C2G = 10009;
 		 public const ushort A1001_GetUserInfo_G2C = 10010;
 		 public const ushort A1002_SetUserInfo_C2G = 10011;
 		 public const ushort A1002_SetUserInfo_G2C = 10012;
-		 public const ushort C2R_Login = 10013;
-		 public const ushort R2C_Login = 10014;
-		 public const ushort C2G_LoginGate = 10015;
-		 public const ushort G2C_LoginGate = 10016;
-		 public const ushort G2C_TestHotfixMessage = 10017;
-		 public const ushort C2M_TestActorRequest = 10018;
-		 public const ushort M2C_TestActorResponse = 10019;
-		 public const ushort PlayerInfo = 10020;
-		 public const ushort C2G_PlayerInfo = 10021;
-		 public const ushort G2C_PlayerInfo = 10022;
-		 public const ushort C2G_LoginGate_Req = 10023;
-		 public const ushort G2C_LoginGate_Back = 10024;
+		 public const ushort A1003_ClientLogout_C2G = 10013;
+		 public const ushort A1003_ClientLogout_G2C = 10014;
+		 public const ushort C2R_Login = 10015;
+		 public const ushort R2C_Login = 10016;
+		 public const ushort C2G_LoginGate = 10017;
+		 public const ushort G2C_LoginGate = 10018;
+		 public const ushort G2C_TestHotfixMessage = 10019;
+		 public const ushort C2M_TestActorRequest = 10020;
+		 public const ushort M2C_TestActorResponse = 10021;
+		 public const ushort PlayerInfo = 10022;
+		 public const ushort C2G_PlayerInfo = 10023;
+		 public const ushort G2C_PlayerInfo = 10024;
+		 public const ushort C2G_LoginGate_Req = 10025;
+		 public const ushort G2C_LoginGate_Back = 10026;
 	}
 }

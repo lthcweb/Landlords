@@ -7,6 +7,7 @@ namespace ETModel
     {
         public const string LandLogin = "LandLogin";
         public const string LandLobby = "LandLobby";
+        public const string SetUserInfo = "SetUserInfo";
 
 
     }
@@ -15,6 +16,9 @@ namespace ETModel
         public const string LandInitSceneStart = "LandInitSceneStart";
         public const string LandLoginFinish = "LandLoginFinish";
         public const string LandInitLobby = "LandInitLobby";
+        public const string LandSetUserInfo = "LandSetUserInfo";
+        public const string LandSetUserInfoFinish = "LandSetUserInfoFinish";
+        public const string LandClientLogout = "LandClientLogout";
     }
 
     [Event(UIEventType.LandInitSceneStart)]
@@ -54,6 +58,34 @@ namespace ETModel
             tc.itime--;
             Log.Info($"===>Test0901Component:{tc.itime}");
             */
+        }
+    }
+
+    [Event(UIEventType.LandSetUserInfo)]
+    public class LandSetUserInfo : AEvent
+    {
+        public override void Run()
+        {
+            Game.Scene.GetComponent<UIComponent>().Create(LandUIType.SetUserInfo);
+        }
+    }
+
+    [Event(UIEventType.LandSetUserInfoFinish)]
+    public class LandSetUserInfoFinish : AEvent
+    {
+        public override void Run()
+        {
+            Game.Scene.GetComponent<UIComponent>().Remove(LandUIType.SetUserInfo);
+        }
+    }
+
+    [Event(UIEventType.LandClientLogout)]
+    public class LandClientLogout : AEvent
+    {
+        public override void Run()
+        {
+            Game.Scene.GetComponent<UIComponent>().Remove(LandUIType.LandLobby);
+            Game.Scene.GetComponent<UIComponent>().Create(LandUIType.LandLogin);
         }
     }
 }

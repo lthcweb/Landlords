@@ -5,7 +5,7 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\lthcw\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\WSW\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.1</NuGetToolVersion>
   </PropertyGroup>
@@ -23,9 +23,9 @@
     <Import Project="$(NuGetPackageRoot)microsoft.codequality.analyzers\2.6.1\build\Microsoft.CodeQuality.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codequality.analyzers\2.6.1\build\Microsoft.CodeQuality.Analyzers.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgText_Analyzers Condition=" '$(PkgText_Analyzers)' == '' ">C:\Users\lthcw\.nuget\packages\text.analyzers\2.6.1</PkgText_Analyzers>
-    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\lthcw\.nuget\packages\microsoft.netframework.analyzers\2.6.1</PkgMicrosoft_NetFramework_Analyzers>
-    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\lthcw\.nuget\packages\microsoft.netcore.analyzers\2.6.1</PkgMicrosoft_NetCore_Analyzers>
-    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\lthcw\.nuget\packages\microsoft.codequality.analyzers\2.6.1</PkgMicrosoft_CodeQuality_Analyzers>
+    <PkgText_Analyzers Condition=" '$(PkgText_Analyzers)' == '' ">C:\Users\WSW\.nuget\packages\text.analyzers\2.6.1</PkgText_Analyzers>
+    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\WSW\.nuget\packages\microsoft.netframework.analyzers\2.6.1</PkgMicrosoft_NetFramework_Analyzers>
+    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\WSW\.nuget\packages\microsoft.netcore.analyzers\2.6.1</PkgMicrosoft_NetCore_Analyzers>
+    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\WSW\.nuget\packages\microsoft.codequality.analyzers\2.6.1</PkgMicrosoft_CodeQuality_Analyzers>
   </PropertyGroup>
 </Project>

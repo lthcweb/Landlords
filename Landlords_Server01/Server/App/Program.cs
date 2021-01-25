@@ -60,6 +60,7 @@ namespace App
 				Game.Scene.AddComponent<UserComponent>();
 				Game.Scene.AddComponent<SessionKeyComponent>();
 				Game.Scene.AddComponent<SessionUserComponent>();
+				Game.Scene.AddComponent<OnlineComponent>();
 
 				// location server需要的组件
 				Game.Scene.AddComponent<LocationComponent>();
