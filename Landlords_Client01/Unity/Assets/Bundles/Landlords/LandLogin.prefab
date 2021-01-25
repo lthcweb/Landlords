@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 222771507034628562}
   - component: {fileID: 114308377062327756}
   - component: {fileID: 114300047448277030}
-  - component: {fileID: 3141767727943988744}
+  - component: {fileID: 114923185572953742}
   m_Layer: 5
   m_Name: LandLogin
   m_TagString: Untagged
@@ -73,7 +73,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 16f6c968b7be9d64a8f435edb02cac0d, type: 3}
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvasName: Canvas
---- !u!114 &3141767727943988744
+--- !u!114 &114923185572953742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,16 +108,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-  - key: Prompt
-    gameObject: {fileID: 8321758095548290758}
-  - key: RegisterButton
-    gameObject: {fileID: 3839177816307034801}
-  - key: LoginButton
-    gameObject: {fileID: 933081059184671432}
-  - key: Password
-    gameObject: {fileID: 5130675672591668589}
   - key: Account
     gameObject: {fileID: 3563502250092423789}
+  - key: Password
+    gameObject: {fileID: 5130675672591668589}
+  - key: LoginButton
+    gameObject: {fileID: 933081059184671432}
+  - key: RegisterButton
+    gameObject: {fileID: 3839177816307034801}
+  - key: Prompt
+    gameObject: {fileID: 8321758095548290758}
 --- !u!1 &933081059184671432
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +258,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 92ac2cca0229b184093cc52853012a47, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 921316ea22f581c4f8545ca85f7bd16e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -778,7 +778,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 92ac2cca0229b184093cc52853012a47, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 921316ea22f581c4f8545ca85f7bd16e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

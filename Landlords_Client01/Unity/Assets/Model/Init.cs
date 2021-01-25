@@ -45,13 +45,24 @@ namespace ETModel
 				//添加消息分发组件MessageDispatcherComponent
 				Game.Scene.AddComponent<MessageDispatcherComponent>();
 
+				/*
 				//Test05
 				//练习1
-				/*
+				
 				Game.Scene.AddComponent<OpcodeTestComponent>();
+				await BundleHelper.DownloadBundle();
+				Game.EventSystem.Load();
 
+				//练习2
 				Game.Scene.AddComponent<TimerComponent>();
 				Game.Scene.AddComponent<FrameTestComponent>();
+
+				//练习3
+				TestRoom room = ComponentFactory.Create<TestRoom>();
+				room.AddComponent<TimeTestComponent>();
+				room.GetComponent<TimeTestComponent>().Run(Typebehavior.Waiting, 5000);
+
+				
 
 				Game.EventSystem.Load();
 				
@@ -66,15 +77,15 @@ namespace ETModel
 				Game.EventSystem.Run(UIEventType.LandInitSceneStart);
 				//Game.EventSystem.Run(UIEventType.LandInitLobby);
 
-				
+
 
 
 
 				//测试发送给服务端一条文本消息
 				//Session session = Game.Scene.GetComponent<NetOuterComponent>().Create(GlobalConfigComponent.Instance.GlobalProto.Address);
-                //G2C_TestMessage g2CTestMessage = (G2C_TestMessage) await session.Call(new C2G_TestMessage() { Info = "==>>服务端的朋友,你好!收到请回答" });
+				//G2C_TestMessage g2CTestMessage = (G2C_TestMessage) await session.Call(new C2G_TestMessage() { Info = "==>>服务端的朋友,你好!收到请回答" });
 
-				
+
 			}
 			catch (Exception e)
 			{

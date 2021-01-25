@@ -1,6 +1,4 @@
-﻿using System;
-using ETModel;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace ETModel
@@ -28,7 +26,11 @@ namespace ETModel
 
         public bool isMatching;
 
-        public async void Awake()
+        public void Awake()
+        {
+            Init();
+        }
+        public async void Init()
         {
             ReferenceCollector rc = this.GetParent<UI>().GameObject.GetComponent<ReferenceCollector>();
 
@@ -36,13 +38,7 @@ namespace ETModel
             name = rc.Get<GameObject>("Name").GetComponent<Text>();
             money = rc.Get<GameObject>("Money").GetComponent<Text>();
 
-            //获取玩家数据
-            A1001_GetUserInfo_C2G GetUserInfo_Req = new A1001_GetUserInfo_C2G();
-            A1001_GetUserInfo_G2C GetUserInfo_Ack = (A1001_GetUserInfo_G2C)await SessionComponent.Instance.Session.Call(GetUserInfo_Req);
 
-            //显示用户名和用户等级
-            name.text = GetUserInfo_Ack.UserName;
-            money.text = GetUserInfo_Ack.Money.ToString();
 
             //添加进入房间匹配事件
             //...
@@ -51,10 +47,13 @@ namespace ETModel
             //...
 
             //获取玩家数据
-            //...
+            A1001_GetUserInfo_C2G GetUserInfo_Req = new A1001_GetUserInfo_C2G();
+            A1001_GetUserInfo_G2C GetUserInfo_Ack = await SessionComponent.Instance.Session.Call(GetUserInfo_Req) as A1001_GetUserInfo_G2C;
+         //...
 
             //显示用户名和用户等级
-            //name.text = GetUserInfo_Ack.NickName;
+            name.text = GetUserInfo_Ack.UserName;
+            money.text = GetUserInfo_Ack.Money.ToString();
         }
 
     }
