@@ -1,0 +1,28 @@
+2021-01-27 00:08:43.7175 AllServer 0001 System.NotImplementedException: The method or operation is not implemented.
+   at ETHotfix.A1003_ClientLogout_Handler.Run(Session session, A1003_ClientLogout_C2G request, A1003_ClientLogout_G2C response, Action reply) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A1003_ClientLogout_Handler.cs:line 11
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:line 45 
+ Dispatch at offset 91 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3589 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 504 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Error at offset 124 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-27 00:11:32.1134 AllServer 0001 System.NotImplementedException: The method or operation is not implemented.
+   at ETHotfix.A1003_ClientLogout_Handler.Run(Session session, A1003_ClientLogout_C2G request, A1003_ClientLogout_G2C response, Action reply) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Landlords\Handler\Gate\A1003_ClientLogout_Handler.cs:line 11
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:line 45 
+ Dispatch at offset 91 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 265 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3589 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 504 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 373 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1394 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Module\Message\AMRpcHandler.cs:45:6
+Error at offset 124 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+

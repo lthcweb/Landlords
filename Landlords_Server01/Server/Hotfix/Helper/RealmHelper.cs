@@ -54,11 +54,6 @@ namespace ETHotfix
             {
                 Log.Debug($"玩家{userId}已在线 将执行踢下线操作");
 
-                //获取此User所在Gate服务器
-                StartConfig userGateConfig = Game.Scene.GetComponent<StartConfigComponent>().Get(gateAppId);
-                IPEndPoint userGateIPEndPoint = userGateConfig.GetComponent<InnerConfig>().IPEndPoint;
-                Session userGateSession = Game.Scene.GetComponent<NetInnerComponent>().Get(userGateIPEndPoint);
-
                 //获取此User其它客户端与网关连接session
                 /* 这里是向此User其它客户端发送一条测试消息，                                 */
                 /* 你可以在移除它处登录用户前向之前客户端发送一条通知下线的消息让其返回登录界面  */
@@ -69,6 +64,11 @@ namespace ETHotfix
                 //向客户端发送玩家下线消息
                 Log.Info("它处登录，原登录踢下线《====");
                 //...练习，自己实现通知客户端下线
+
+                //获取此User所在Gate服务器
+                StartConfig userGateConfig = Game.Scene.GetComponent<StartConfigComponent>().Get(gateAppId);
+                IPEndPoint userGateIPEndPoint = userGateConfig.GetComponent<InnerConfig>().IPEndPoint;
+                Session userGateSession = Game.Scene.GetComponent<NetInnerComponent>().Get(userGateIPEndPoint);
 
                 //通知Gate服务器移除指定User将它处登录用户踢下线
                 await userGateSession.Call(new A0007_KickOutPlayer_R2G() { UserID = userId });

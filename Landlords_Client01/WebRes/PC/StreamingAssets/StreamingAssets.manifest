@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 943312505
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: config.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: landlogin.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: landlobby.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: setuserinfo.unity3d
+      Dependencies: {}

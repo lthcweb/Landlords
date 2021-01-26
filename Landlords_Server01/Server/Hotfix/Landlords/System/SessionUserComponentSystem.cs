@@ -23,7 +23,7 @@ namespace ETHotfix
 
                 //服务端主动断开客户端连接
                 Game.Scene.GetComponent<NetOuterComponent>().Remove(self.User.GateSessionID);
-                //Log.Info($"将玩家{message.UserID}连接断开");
+                Log.Info($"将玩家{self.User.UserID} 连接断开");
 
                 self.User.Dispose();
                 self.User = null;

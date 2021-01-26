@@ -1,0 +1,39 @@
+2021-01-27 00:08:10.2489 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-27 00:10:24.2435 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-27 00:15:12.3612 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-27 00:15:31.2971 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:16:02.1806 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:16:02.1806 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:16:56.3788 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-27 00:17:07.3322 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:18:55.1643 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:18:55.1643 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:18:55.1805 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-27 00:19:25.7872 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:23:47.6822 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:23:47.6822 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:23:47.6983 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-27 00:24:31.0064 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:24:31.0064 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:24:31.0219 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-27 00:25:23.2411 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:28:44.8511 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:28:44.8511 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:28:44.8672 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-27 00:28:56.6554 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:29:43.2897 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:29:43.2897 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:29:43.3029 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-27 00:30:14.8675 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:30:22.5939 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:30:22.5939 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:30:22.6178 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线
+2021-01-27 00:32:20.3660 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:33:12.6698 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:35:03.9352 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-27 00:35:41.5962 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:42:14.3800 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-27 00:42:41.1756 AllServer 0001 (A1003_ClientLogout_Handler.cs:13) 收到登出请求
+2021-01-27 00:48:45.4348 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-27 00:48:45.4348 AllServer 0001 (SessionUserComponentSystem.cs:26) 将玩家101611576931 连接断开
+2021-01-27 00:48:45.4513 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线

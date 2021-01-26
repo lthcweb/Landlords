@@ -17,6 +17,7 @@ namespace ETHotfix
 
                 //移除session与user的绑定
                 lastSession.RemoveComponent<SessionUserComponent>();
+                Log.Info($"移除UserID:{request.UserID} session与user的绑定");
 
                 reply();
 

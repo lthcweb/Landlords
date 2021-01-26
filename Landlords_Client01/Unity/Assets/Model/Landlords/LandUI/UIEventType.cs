@@ -18,7 +18,7 @@ namespace ETModel
         public const string LandInitLobby = "LandInitLobby";
         public const string LandSetUserInfo = "LandSetUserInfo";
         public const string LandSetUserInfoFinish = "LandSetUserInfoFinish";
-        public const string LandClientLogout = "LandClientLogout";
+        public const string LandClientLogoutFinish = "LandClientLogoutFinish";
     }
 
     [Event(UIEventType.LandInitSceneStart)]
@@ -79,8 +79,8 @@ namespace ETModel
         }
     }
 
-    [Event(UIEventType.LandClientLogout)]
-    public class LandClientLogout : AEvent
+    [Event(UIEventType.LandClientLogoutFinish)]
+    public class LandClientLogoutFinish : AEvent
     {
         public override void Run()
         {

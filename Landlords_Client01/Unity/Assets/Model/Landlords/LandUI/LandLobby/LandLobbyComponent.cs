@@ -1,5 +1,4 @@
 using System;
-using ETModel;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,6 +36,8 @@ namespace ETModel
         public Text title;
 
         public bool isMatching;
+
+        private bool isLogouting;
 
         public async void Awake()
         {
@@ -76,11 +77,47 @@ namespace ETModel
             title.text = GetUserInfo_Ack.Title;
         }
 
+
         private async void OnLogout()
         {
-            A1003_ClientLogout_C2G clientLogout_Req = new A1003_ClientLogout_C2G();
-            A1003_ClientLogout_G2C clientLogout_Ack = await SessionComponent.Instance.Session.Call(clientLogout_Req) as A1003_ClientLogout_G2C;
-            
+            if (this.isLogouting || this.IsDisposed)
+            {
+                return;
+            }
+            this.isLogouting = true;
+
+            try
+            {
+                A1003_ClientLogout_C2G clientLogout_Req = new A1003_ClientLogout_C2G() { };
+                A1003_ClientLogout_G2C messageGate = await SessionComponent.Instance.Session.Call(clientLogout_Req) as A1003_ClientLogout_G2C;
+                this.isLogouting = false;
+
+                //判断登陆Gate服务器返回结果
+                if (messageGate.Error == ErrorCode.ERR_ConnectGateKeyError)
+                {
+                    // login.prompt.text = "连接网关服务器超时";
+                    // login.account.text = "";
+                    // login.password.text = "";
+                    // sessionGate.Dispose();
+                    // login.isLogining = false;
+                    Log.Error("连接网关服务器超时");
+                    return;
+                }
+
+                Log.Error("连接网关服务器正常");
+                //判断通过则退出Gate成功
+
+                //断开与服务器的连接
+                long sessionId = SessionComponent.Instance.Session.Id;
+                Game.Scene.GetComponent<NetOuterComponent>().Remove(sessionId);
+
+                //运行登出事件
+                Game.EventSystem.Run(UIEventType.LandClientLogoutFinish);
+            }
+            catch(Exception e)
+            {
+                Log.Error(e);
+            }
         }
 
         private void OnSetUserInfo()
