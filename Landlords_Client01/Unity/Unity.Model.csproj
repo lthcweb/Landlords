@@ -79,11 +79,16 @@
     <Compile Include="Assets\Model\Landlords\Component\GamerComponent.cs" />
     <Compile Include="Assets\Model\Landlords\Entity\Gamer.cs" />
     <Compile Include="Assets\Model\Landlords\Entity\User.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor_GamerEnterRoom_NttHandler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\LandlordsMatcherPlusOne_Handler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\LandlordsMatcherReduceOne_Handler.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandHelper.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLobby\LandLobbyComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLobby\LandLobbyFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLogin\LandLoginComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLogin\LandLoginFactory.cs" />
+    <Compile Include="Assets\Model\Landlords\LandUI\LandRoom\LandRoomComponent.cs" />
+    <Compile Include="Assets\Model\Landlords\LandUI\LandRoom\LandRoomFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandSetUserInfo\LandSetUserInfoComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandSetUserInfo\LandSetUserInfoFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\UIEventType.cs" />
@@ -350,28 +355,28 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Development/Unity/Unity2018.3.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

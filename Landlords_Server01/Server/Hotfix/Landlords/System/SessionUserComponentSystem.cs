@@ -21,9 +21,10 @@ namespace ETHotfix
                 Session realmSession = Game.Scene.GetComponent<NetInnerComponent>().Get(realmIPEndPoint);
                 realmSession.Send(new A0005_PlayerOffline_G2R() { UserID = self.User.UserID });
 
-                //服务端主动断开客户端连接
-                Game.Scene.GetComponent<NetOuterComponent>().Remove(self.User.GateSessionID);
-                Log.Info($"将玩家{self.User.UserID} 连接断开");
+                
+                //服务端主动断开客户端连接（放在这里有点问题，Client主动登出时会出错）
+                //Game.Scene.GetComponent<NetOuterComponent>().Remove(self.User.GateSessionID);
+                //Log.Info($"将玩家{self.User.UserID} 连接断开");
 
                 self.User.Dispose();
                 self.User = null;

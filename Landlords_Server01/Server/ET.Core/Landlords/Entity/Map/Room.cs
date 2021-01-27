@@ -1,12 +1,32 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace ETModel
 {
     /// <summary>
+    /// 房间配置
+    /// </summary>
+    public struct RoomConfig
+    {
+        /// <summary>
+        /// 倍率
+        /// </summary>
+        public int Multiples { get; set; }
+
+        /// <summary>
+        /// 基础分
+        /// </summary>
+        public long BasePointPerMatch { get; set; }
+
+        /// <summary>
+        /// 房间最低门槛
+        /// </summary>
+        public long MinThreshold { get; set; }
+    }
+
+    /// <summary>
     /// 房间对象
     /// </summary>
-    public sealed class LandlordsRoom : Entity
+    public sealed class Room : Entity
     {
         /// <summary>
         /// 当前房间的3个座位 UserID/seatIndex

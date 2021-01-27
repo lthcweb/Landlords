@@ -1,5 +1,4 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
-namespace ETModel
+﻿namespace ETModel
 {
     [ObjectSystem]
     public class GamerAwakeSystem : AwakeSystem<Gamer, long>
@@ -26,6 +25,11 @@ namespace ETModel
         public long GActorID { get; set; }
 
         /// <summary>
+        /// 玩家ClientActorID
+        /// </summary>
+        public long CActorID { get; set; }
+
+        /// <summary>
         /// 默认为假 Session断开/离开房间时触发离线
         /// </summary>
         public bool isOffline { get; set; }
@@ -46,6 +50,7 @@ namespace ETModel
 
             this.UserID = 0;
             this.GActorID = 0;
+            this.CActorID = 0;
             this.isOffline = false;
         }
     }

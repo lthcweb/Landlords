@@ -39,7 +39,7 @@ namespace ETModel
 
         private bool isLogouting;
 
-        public async void Awake()
+        public void Awake()
         {
             ReferenceCollector rc = this.GetParent<UI>().GameObject.GetComponent<ReferenceCollector>();
 
@@ -54,6 +54,8 @@ namespace ETModel
 
             rc.Get<GameObject>("SetUserInfo").GetComponent<Button>().onClick.Add(OnSetUserInfo);
             rc.Get<GameObject>("Logout").GetComponent<Button>().onClick.Add(OnLogout);
+            //匹配进入房间按钮
+            rc.Get<GameObject>("Landlords").GetComponent<Button>().onClick.Add(OnStartMatchLandlords);
 
             //添加进入房间匹配事件
             //...
@@ -62,19 +64,7 @@ namespace ETModel
             //...
 
             //获取玩家数据
-            A1001_GetUserInfo_C2G GetUserInfo_Req = new A1001_GetUserInfo_C2G();
-            A1001_GetUserInfo_G2C GetUserInfo_Ack = await SessionComponent.Instance.Session.Call(GetUserInfo_Req) as A1001_GetUserInfo_G2C;
-
-
-            //显示用户名和用户等级
-            //name.text = GetUserInfo_Ack.NickName;
-            name.text = GetUserInfo_Ack.UserName;
-            money.text = GetUserInfo_Ack.Money.ToString();
-            level.text = GetUserInfo_Ack.Level.ToString();
-            phone.text = GetUserInfo_Ack.Phone.ToString();
-            email.text = GetUserInfo_Ack.Email;
-            sex.text = GetUserInfo_Ack.Sex;
-            title.text = GetUserInfo_Ack.Title;
+            GetUserInfo();
         }
 
 
@@ -88,12 +78,16 @@ namespace ETModel
 
             try
             {
-                A1003_ClientLogout_C2G clientLogout_Req = new A1003_ClientLogout_C2G() { };
-                A1003_ClientLogout_G2C messageGate = await SessionComponent.Instance.Session.Call(clientLogout_Req) as A1003_ClientLogout_G2C;
+                //A1003_ClientLogout_C2G clientLogout_Req = new A1003_ClientLogout_C2G();
+                //A1003_ClientLogout_G2C messageGate = await SessionComponent.Instance.Session.Call(clientLogout_Req) as A1003_ClientLogout_G2C;
+
+                A1003_ClientLogout_C2G clientLogout_Req = new A1003_ClientLogout_C2G();
+                A1003_ClientLogout_G2C GetUserInfo_Ack = await SessionComponent.Instance.Session.Call(clientLogout_Req) as A1003_ClientLogout_G2C;
                 this.isLogouting = false;
 
+
                 //判断登陆Gate服务器返回结果
-                if (messageGate.Error == ErrorCode.ERR_ConnectGateKeyError)
+                if (GetUserInfo_Ack.Error == ErrorCode.ERR_ConnectGateKeyError)
                 {
                     // login.prompt.text = "连接网关服务器超时";
                     // login.account.text = "";
@@ -103,9 +97,6 @@ namespace ETModel
                     Log.Error("连接网关服务器超时");
                     return;
                 }
-
-                Log.Error("连接网关服务器正常");
-                //判断通过则退出Gate成功
 
                 //断开与服务器的连接
                 long sessionId = SessionComponent.Instance.Session.Id;
@@ -120,6 +111,24 @@ namespace ETModel
             }
         }
 
+        private async void GetUserInfo()
+        {
+            A1001_GetUserInfo_C2G GetUserInfo_Req = new A1001_GetUserInfo_C2G();
+            A1001_GetUserInfo_G2C GetUserInfo_Ack = await SessionComponent.Instance.Session.Call(GetUserInfo_Req) as A1001_GetUserInfo_G2C;
+
+
+            //显示用户名和用户等级
+            //name.text = GetUserInfo_Ack.NickName;
+            name.text = GetUserInfo_Ack.UserName;
+            money.text = GetUserInfo_Ack.Money.ToString();
+            level.text = GetUserInfo_Ack.Level.ToString();
+            phone.text = GetUserInfo_Ack.Phone.ToString();
+            email.text = GetUserInfo_Ack.Email;
+            sex.text = GetUserInfo_Ack.Sex;
+            title.text = GetUserInfo_Ack.Title;
+
+        }
+
         private void OnSetUserInfo()
         {
             Game.EventSystem.Run(UIEventType.LandSetUserInfo);
@@ -130,6 +139,33 @@ namespace ETModel
             phone.text = info.Phone.ToString();
             email.text = info.Email;
             sex.text = info.Sex;
+        }
+
+        /// <summary>
+        /// 匹配斗地主
+        /// </summary>
+        public async void OnStartMatchLandlords()
+        {
+            try
+            {
+                //发送开始匹配消息
+                C2G_StartMatch_Req c2G_StartMatch_Req = new C2G_StartMatch_Req();
+                G2C_StartMatch_Back g2C_StartMatch_Ack = (G2C_StartMatch_Back)await SessionComponent.Instance.Session.Call(c2G_StartMatch_Req);
+
+                if (g2C_StartMatch_Ack.Error == ErrorCode.ERR_UserMoneyLessError)
+                {
+                    Log.Error("余额不足");
+                    return;
+                }
+
+                //切换到房间界面
+                UI landRoom = Game.Scene.GetComponent<UIComponent>().Create(LandUIType.LandRoom);
+                Game.Scene.GetComponent<UIComponent>().Remove(LandUIType.LandLobby);
+            }
+            catch (Exception e)
+            {
+                Log.Error(e);
+            }
         }
     }
 }

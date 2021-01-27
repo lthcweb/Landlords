@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using ETModel;
 
 namespace ETHotfix
@@ -11,10 +12,24 @@ namespace ETHotfix
             try
             {
                 Log.Info("收到登出请求");
-                response.Error = ErrorCode.ERR_ConnectGateKeyError;
-                //客户端提示：连接网关服务器超时
+                //验证Session
+                if (!GateHelper.SignSession(session))
+                {
+                    response.Error = ErrorCode.ERR_UserNotOnline;
+                    reply();
+                    return;
+                }
+
+                
+                User user = session.GetComponent<SessionUserComponent>().User;
+
+              //移除session与user的绑定，全调用SessionUserComponent的Destory方法
+                Log.Info($"移除UserID:{user.UserID} session与user的绑定");
+                session.RemoveComponent<SessionUserComponent>();
+
                 reply();
-                return;
+
+                await ETTask.CompletedTask;
             }
             catch(Exception e)
             {

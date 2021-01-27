@@ -56,12 +56,6 @@ namespace App
 				Game.Scene.AddComponent<DBCacheComponent>();
 				Game.Scene.AddComponent<DBProxyComponent>();
 
-				//泰学教程
-				Game.Scene.AddComponent<UserComponent>();
-				Game.Scene.AddComponent<SessionKeyComponent>();
-				Game.Scene.AddComponent<SessionUserComponent>();
-				Game.Scene.AddComponent<OnlineComponent>();
-
 				// location server需要的组件
 				Game.Scene.AddComponent<LocationComponent>();
 				// 访问location server的组件
@@ -86,7 +80,15 @@ namespace App
 				// 配置管理
 				Game.Scene.AddComponent<ConfigComponent>();
 				Game.Scene.AddComponent<ConsoleComponent>();
-				
+
+				//斗地主服务端组件
+				Game.Scene.AddComponent<UserComponent>();
+				Game.Scene.AddComponent<SessionKeyComponent>();
+				Game.Scene.AddComponent<SessionUserComponent>();
+				Game.Scene.AddComponent<OnlineComponent>();
+				Game.Scene.AddComponent<LandMatchComponent>();
+
+
 				while (true)
 				{
 					try

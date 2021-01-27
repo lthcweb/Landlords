@@ -22,6 +22,9 @@ namespace ETHotfix
                 reply();
 
                 await ETTask.CompletedTask;
+                //服务端主动断开客户端连接
+                Game.Scene.GetComponent<NetOuterComponent>().Remove(sessionId);
+                Log.Info($"将玩家{request.UserID} 连接断开");
             }
             catch (Exception e)
             {
