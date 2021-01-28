@@ -498,3 +498,27 @@
 2021-01-28 16:29:21.5702 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611814283
 2021-01-28 16:29:21.6004 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101610427424下线
 2021-01-28 16:29:21.6149 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611814283下线
+2021-01-28 22:07:18.8988 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-28 22:10:41.9943 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710740 instanceId: 281474976710740
+2021-01-28 22:10:42.0477 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710742 instanceId: 281474976710742
+2021-01-28 22:10:42.0697 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611473927进入房间
+2021-01-28 22:10:42.1114 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611473927匹配成功 更新客户端Actor转发向Gamer
+2021-01-28 22:10:46.4250 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710760 instanceId: 281474976710760
+2021-01-28 22:10:46.4409 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611476862进入房间
+2021-01-28 22:10:46.4572 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611476862匹配成功 更新客户端Actor转发向Gamer
+2021-01-28 22:10:57.9386 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710780 instanceId: 281474976710780
+2021-01-28 22:10:57.9540 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611576931进入房间
+2021-01-28 22:10:58.0027 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611576931匹配成功 更新客户端Actor转发向Gamer
+2021-01-28 22:11:04.7279 AllServer 0001 (GameControllerComponentSystem.cs:77) 房间281474976710742开始游戏
+2021-01-28 22:13:51.7915 AllServer 0001 (A1003_ClientLogout_Handler.cs:14) 收到登出请求
+2021-01-28 22:13:51.8106 AllServer 0001 (A1003_ClientLogout_Handler.cs:27) 移除UserID:101611476862 session与user的绑定
+2021-01-28 22:13:51.8172 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611476862
+2021-01-28 22:13:51.8725 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611476862下线
+2021-01-28 22:13:58.2696 AllServer 0001 (A1003_ClientLogout_Handler.cs:14) 收到登出请求
+2021-01-28 22:13:58.2696 AllServer 0001 (A1003_ClientLogout_Handler.cs:27) 移除UserID:101611473927 session与user的绑定
+2021-01-28 22:13:58.2696 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611473927
+2021-01-28 22:13:58.2853 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611473927下线
+2021-01-28 22:14:06.8960 AllServer 0001 (A1003_ClientLogout_Handler.cs:14) 收到登出请求
+2021-01-28 22:14:06.8960 AllServer 0001 (A1003_ClientLogout_Handler.cs:27) 移除UserID:101611576931 session与user的绑定
+2021-01-28 22:14:06.8960 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611576931
+2021-01-28 22:14:06.9118 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611576931下线

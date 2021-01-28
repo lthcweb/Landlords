@@ -73,7 +73,7 @@ namespace ETHotfix
             }
 
             //随机先手玩家
-            //gameController.RandomFirstAuthority();
+            gameController.RandomFirstAuthority();
             Log.Info($"房间{room.Id}开始游戏");
         }
 
@@ -127,6 +127,21 @@ namespace ETHotfix
                 }
             }
 
+        }
+
+        /// <summary>
+        /// 随机先手玩家
+        /// </summary>
+        public static void RandomFirstAuthority(this GameControllerComponent self)
+        {
+            Room room = self.GetParent<Room>();
+            Gamer[] gamers = room.gamers;
+
+            int index = RandomHelper.RandomNumber(0, gamers.Length);
+            long firstAuthority = gamers[index].UserID;
+
+            //广播先手抢地主玩家
+            room.Broadcast(new Actor_AuthorityGrabLandlord_Ntt() { UserID = firstAuthority });
         }
 
     }

@@ -105,6 +105,14 @@ namespace ETModel
             this.headPhoto = null;
         }
 
+        /// <summary>
+        /// 出牌错误
+        /// </summary>
+        public void SetPlayCardsError()
+        {
+            prompt.text = "您出的牌不符合规则！";
+        }
+
         public override void Dispose()
         {
             if (this.IsDisposed)
