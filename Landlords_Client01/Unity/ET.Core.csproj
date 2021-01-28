@@ -155,6 +155,8 @@
     <Compile Include="Assets\ET.Core\Entity\Game.cs" />
     <Compile Include="Assets\ET.Core\Entity\Hotfix.cs" />
     <Compile Include="Assets\ET.Core\Entity\Scene.cs" />
+    <Compile Include="Assets\ET.Core\Landlords\Card.cs" />
+    <Compile Include="Assets\ET.Core\Landlords\Type.cs" />
     <Compile Include="Assets\ET.Core\Module\Actor\ActorMessageAttribute.cs" />
     <Compile Include="Assets\ET.Core\Module\Actor\ActorMessageDispatcherComponent.cs" />
     <Compile Include="Assets\ET.Core\Module\Actor\ActorMessageHandlerAttribute.cs" />

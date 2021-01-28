@@ -26,5 +26,8 @@
 		public const string InitSceneStart = "InitSceneStart";
 		public const string LoginFinish = "LoginFinish";
 		public const string EnterMapFinish = "EnterMapFinish";
+
+		public const string SelectHandCard = "SelectHandCard";
+		public const string CancelHandCard = "CancelHandCard";
 	}
 }

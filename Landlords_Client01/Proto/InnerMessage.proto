@@ -64,6 +64,12 @@ message EnterMatchs_G2M // IMessage
 }
 //匹配玩家并进入斗地主游戏房间 <==
 
+//Gate通知Map玩家离开房间
+message Actor_PlayerExitRoom_G2M // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 94;
+}
 
 /// <summary>
 /// ET

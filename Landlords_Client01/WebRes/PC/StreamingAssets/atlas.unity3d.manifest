@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2327493890
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a0edf25e528bd784942acbd10596c4d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bd9310644ed691e03bee02b88d2f9192
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a351d4db0ead7d48b3ffd70f2118e64, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Bundles/Landlords/Atlas.prefab
+Dependencies: []

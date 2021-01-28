@@ -47,22 +47,20 @@ namespace ETHotfix
             }
 
             //添加开始斗地主游戏需要的组件
-            //...
+            //牌库组件
+            self.AddComponent<DeckComponent>();
+
+            //游戏控制组件
+            self.AddComponent<GameControllerComponent, RoomConfig>(GateHelper.GetLandlordsConfig(RoomLevel.Lv100));
+
+            //手牌缓存组件
+            //self.AddComponent<DeskCardsCacheComponent>();
+            //出牌控制组件
+            //self.AddComponent<OrderControllerComponent>();
 
             //开始游戏
-            //self.GetComponent<GameControllerComponent>().StartGame();
-           /* foreach (Gamer gamer in self.gamers)
-            {
-                //如果玩家不存在或者不在线
-                if (gamer == null || gamer.isOffline)
-                {
-                    continue;
-                }
-                //向客户端User发送Actor消息
-                ActorMessageSenderComponent actorProxyComponent = Game.Scene.GetComponent<ActorMessageSenderComponent>();
-                ActorMessageSender actorProxy = actorProxyComponent.Get(gamer.CActorID);
-                actorProxy.Send(message);
-            }*/
+            self.GetComponent<GameControllerComponent>().StartGame();
+
 
         }
 

@@ -77,9 +77,14 @@
     <Compile Include="Assets\Model\Helper\ResourcesHelper.cs" />
     <Compile Include="Assets\Model\Init.cs" />
     <Compile Include="Assets\Model\Landlords\Component\GamerComponent.cs" />
+    <Compile Include="Assets\Model\Landlords\Component\HandCardsComponent.cs" />
+    <Compile Include="Assets\Model\Landlords\Component\LandlordsGamerPanelComponent.cs" />
     <Compile Include="Assets\Model\Landlords\Entity\Gamer.cs" />
     <Compile Include="Assets\Model\Landlords\Entity\User.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\Actor_GamerEnterRoom_NttHandler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor_GamerExitRoom_NttHandler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor_GameStartHandCards_NttHandler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor02_GamerReady_NttHandler.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\LandlordsMatcherPlusOne_Handler.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\LandlordsMatcherReduceOne_Handler.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandHelper.cs" />
@@ -92,6 +97,8 @@
     <Compile Include="Assets\Model\Landlords\LandUI\LandSetUserInfo\LandSetUserInfoComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandSetUserInfo\LandSetUserInfoFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\UIEventType.cs" />
+    <Compile Include="Assets\Model\Landlords\Other\CardHelper.cs" />
+    <Compile Include="Assets\Model\Landlords\Other\HandCardSprite.cs" />
     <Compile Include="Assets\Model\Module\AssetsBundle\AssetsBundleLoaderAsync.cs" />
     <Compile Include="Assets\Model\Module\AssetsBundle\AssetsLoaderAsync.cs" />
     <Compile Include="Assets\Model\Module\AssetsBundle\BundleDownloaderComponent.cs" />

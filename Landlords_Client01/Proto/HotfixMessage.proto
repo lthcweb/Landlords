@@ -175,6 +175,14 @@ message Actor_GamerExitRoom_Ntt // IActorMessage
 }
 //匹配玩家并进入斗地主游戏房间 <==
 
+//准备游戏消息
+message Actor_GamerReady_Landlords // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+	int64 UserID = 1;
+}
+
 //ET----
 message C2R_Login // IRequest
 {

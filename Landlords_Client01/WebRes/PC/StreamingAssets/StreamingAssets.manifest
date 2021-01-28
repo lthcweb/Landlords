@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 943312505
+CRC: 1373803452
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -13,4 +13,16 @@ AssetBundleManifest:
       Dependencies: {}
     Info_3:
       Name: setuserinfo.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: landroom.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: atlas.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: handcard.unity3d
+      Dependencies: {}
+    Info_7:
+      Name: playcard.unity3d
       Dependencies: {}
