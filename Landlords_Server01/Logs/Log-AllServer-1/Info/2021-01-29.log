@@ -48,3 +48,39 @@
 2021-01-29 00:45:42.8002 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611850231进入房间
 2021-01-29 00:45:42.8155 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611850231匹配成功 更新客户端Actor转发向Gamer
 2021-01-29 00:45:52.9525 AllServer 0001 (GameControllerComponentSystem.cs:77) 房间281474976710756开始游戏
+2021-01-29 15:26:09.6840 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-29 15:26:55.5343 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710768 instanceId: 281474976710768
+2021-01-29 15:26:55.8954 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710770 instanceId: 281474976710770
+2021-01-29 15:26:55.9908 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611814283进入房间
+2021-01-29 15:26:56.1654 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611814283匹配成功 更新客户端Actor转发向Gamer
+2021-01-29 15:26:57.0022 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710774 instanceId: 281474976710774
+2021-01-29 15:26:57.0358 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101610427424进入房间
+2021-01-29 15:26:57.1643 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101610427424匹配成功 更新客户端Actor转发向Gamer
+2021-01-29 15:26:58.4071 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710780 instanceId: 281474976710780
+2021-01-29 15:26:58.4697 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611708461进入房间
+2021-01-29 15:26:58.5486 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611708461匹配成功 更新客户端Actor转发向Gamer
+2021-01-29 15:27:08.0267 AllServer 0001 (GameControllerComponentSystem.cs:77) 房间281474976710770开始游戏
+2021-01-29 15:31:02.2567 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101610427424
+2021-01-29 15:31:02.2721 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611708461
+2021-01-29 15:31:02.2721 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611814283
+2021-01-29 15:31:02.3312 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101610427424下线
+2021-01-29 15:31:02.3754 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611708461下线
+2021-01-29 15:31:03.0165 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611814283下线
+2021-01-29 15:33:27.9078 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-01-29 15:36:22.0687 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710768 instanceId: 281474976710768
+2021-01-29 15:36:22.5497 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710770 instanceId: 281474976710770
+2021-01-29 15:36:22.6327 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611708461进入房间
+2021-01-29 15:36:23.0237 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611708461匹配成功 更新客户端Actor转发向Gamer
+2021-01-29 15:36:23.2590 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710774 instanceId: 281474976710774
+2021-01-29 15:36:23.3454 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101610427424进入房间
+2021-01-29 15:36:23.4969 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101610427424匹配成功 更新客户端Actor转发向Gamer
+2021-01-29 15:36:23.7067 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710779 instanceId: 281474976710779
+2021-01-29 15:36:23.7671 AllServer 0001 (LandMatchComponentSystem.cs:106) 玩家101611814283进入房间
+2021-01-29 15:36:23.8621 AllServer 0001 (M2G_MatchSucess_Handler.cs:12) 玩家101611814283匹配成功 更新客户端Actor转发向Gamer
+2021-01-29 15:36:28.9814 AllServer 0001 (GameControllerComponentSystem.cs:77) 房间281474976710770开始游戏
+2021-01-29 15:37:02.9188 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611814283
+2021-01-29 15:37:02.9652 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611814283下线
+2021-01-29 15:37:04.3605 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101611708461
+2021-01-29 15:37:04.6732 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101611708461下线
+2021-01-29 15:37:06.3107 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101610427424
+2021-01-29 15:37:06.3300 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101610427424下线

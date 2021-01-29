@@ -203,3 +203,71 @@ MoveNext at offset 584 in file:line:column E:\ProjectUnity\ET\Landlords\Landlord
 Error at offset 124 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
 Error at offset 64 in file:line:column E:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
 
+2021-01-29 15:36:52.5448 AllServer 0001 System.Exception: not found message handler: { "_t" : "Actor_GamerPlayCard_Req", "RpcId" : 26, "ActorId" : NumberLong("281474976710768"), "Cards" : [{ "CardWeight" : 7, "CardSuits" : 1 }] }
+   at ETHotfix.ActorMessageDispatcherComponentHelper.Handle(ActorMessageDispatcherComponent self, Entity entity, ActorMessageInfo actorMessageInfo) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\ActorMessageDispatcherComponentSystem.cs:line 82
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 98
+   at ETHotfix.MailboxMessageDispatcherHandler.Handle(Session session, Entity entity, Object actorMessage) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:line 16 
+ Run at offset 73 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 894 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailBoxComponentSystem.cs:97:6
+Handle at offset 254 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 284 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxDispatcherComponentSystem.cs:75:5
+Handle at offset 276 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 584 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:16:5
+Error at offset 124 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-29 15:36:54.2711 AllServer 0001 System.Exception: not found message handler: { "_t" : "Actor_GamerPlayCard_Req", "RpcId" : 27, "ActorId" : NumberLong("281474976710768"), "Cards" : [{ "CardWeight" : 7, "CardSuits" : 1 }, { "CardWeight" : 5, "CardSuits" : 0 }] }
+   at ETHotfix.ActorMessageDispatcherComponentHelper.Handle(ActorMessageDispatcherComponent self, Entity entity, ActorMessageInfo actorMessageInfo) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\ActorMessageDispatcherComponentSystem.cs:line 82
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 98
+   at ETHotfix.MailboxMessageDispatcherHandler.Handle(Session session, Entity entity, Object actorMessage) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:line 16 
+ Run at offset 73 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 894 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailBoxComponentSystem.cs:97:6
+Handle at offset 254 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 284 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxDispatcherComponentSystem.cs:75:5
+Handle at offset 276 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 584 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:16:5
+Error at offset 124 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-29 15:36:55.1324 AllServer 0001 System.Exception: not found message handler: { "_t" : "Actor_GamerPlayCard_Req", "RpcId" : 28, "ActorId" : NumberLong("281474976710768"), "Cards" : [{ "CardWeight" : 7, "CardSuits" : 1 }, { "CardWeight" : 5, "CardSuits" : 0 }] }
+   at ETHotfix.ActorMessageDispatcherComponentHelper.Handle(ActorMessageDispatcherComponent self, Entity entity, ActorMessageInfo actorMessageInfo) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\ActorMessageDispatcherComponentSystem.cs:line 82
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 98
+   at ETHotfix.MailboxMessageDispatcherHandler.Handle(Session session, Entity entity, Object actorMessage) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:line 16 
+ Run at offset 73 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 894 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailBoxComponentSystem.cs:97:6
+Handle at offset 254 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 284 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxDispatcherComponentSystem.cs:75:5
+Handle at offset 276 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 584 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:16:5
+Error at offset 124 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-01-29 15:36:55.4681 AllServer 0001 System.Exception: not found message handler: { "_t" : "Actor_GamerPlayCard_Req", "RpcId" : 29, "ActorId" : NumberLong("281474976710768"), "Cards" : [{ "CardWeight" : 7, "CardSuits" : 1 }, { "CardWeight" : 5, "CardSuits" : 0 }] }
+   at ETHotfix.ActorMessageDispatcherComponentHelper.Handle(ActorMessageDispatcherComponent self, Entity entity, ActorMessageInfo actorMessageInfo) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\ActorMessageDispatcherComponentSystem.cs:line 82
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\ETTask.cs:line 98
+   at ETHotfix.MailboxMessageDispatcherHandler.Handle(Session session, Entity entity, Object actorMessage) in D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:line 16 
+ Run at offset 73 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\MoveNextRunner.cs:12:13
+MoveNext at offset 894 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailBoxComponentSystem.cs:97:6
+Handle at offset 254 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 284 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxDispatcherComponentSystem.cs:75:5
+Handle at offset 276 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETTaskMethodBuilder.cs:126:13
+MoveNext at offset 584 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\Hotfix\Module\Actor\MailboxMessageDispatcherHandler.cs:16:5
+Error at offset 124 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Log.cs:32:4
+Error at offset 64 in file:line:column D:\ProjectUnity\ET\Landlords\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+

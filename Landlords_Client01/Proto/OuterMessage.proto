@@ -100,6 +100,21 @@ message Actor_SetLandlord_Ntt // IActorMessage
     repeated Card LordCards = 2;
 }
 
+message Actor_AuthorityPlayCard_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+    int64 UserID = 1;
+    bool IsFirst = 2;
+}
+
+message Actor_SetMultiples_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+    int32 Multiples = 1;
+}
+
 //----ET
 message Actor_Test // IActorMessage
 {

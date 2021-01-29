@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/../Release/Landlords.exe
+D:/ProjectUnity/ET/Landlords/Landlords_Client01/Unity/../Release/Landlords.exe
 SceneListBegin?
 Assets/Scenes/Landlords.unity
 SceneListEnd?

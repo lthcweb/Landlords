@@ -1201,6 +1201,196 @@ namespace ETModel {
 
   }
 
+  public partial class Actor_AuthorityPlayCard_Ntt : pb::IMessage {
+    private static readonly pb::MessageParser<Actor_AuthorityPlayCard_Ntt> _parser = new pb::MessageParser<Actor_AuthorityPlayCard_Ntt>(() => (Actor_AuthorityPlayCard_Ntt)MessagePool.Instance.Fetch(typeof(Actor_AuthorityPlayCard_Ntt)));
+    public static pb::MessageParser<Actor_AuthorityPlayCard_Ntt> Parser { get { return _parser; } }
+
+    private int rpcId_;
+    public int RpcId {
+      get { return rpcId_; }
+      set {
+        rpcId_ = value;
+      }
+    }
+
+    private long actorId_;
+    public long ActorId {
+      get { return actorId_; }
+      set {
+        actorId_ = value;
+      }
+    }
+
+    private long userID_;
+    public long UserID {
+      get { return userID_; }
+      set {
+        userID_ = value;
+      }
+    }
+
+    private bool isFirst_;
+    public bool IsFirst {
+      get { return isFirst_; }
+      set {
+        isFirst_ = value;
+      }
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (UserID != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(UserID);
+      }
+      if (IsFirst != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(IsFirst);
+      }
+      if (RpcId != 0) {
+        output.WriteRawTag(208, 5);
+        output.WriteInt32(RpcId);
+      }
+      if (ActorId != 0L) {
+        output.WriteRawTag(232, 5);
+        output.WriteInt64(ActorId);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (RpcId != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(RpcId);
+      }
+      if (ActorId != 0L) {
+        size += 2 + pb::CodedOutputStream.ComputeInt64Size(ActorId);
+      }
+      if (UserID != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      }
+      if (IsFirst != false) {
+        size += 1 + 1;
+      }
+      return size;
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      userID_ = 0;
+      isFirst_ = false;
+      rpcId_ = 0;
+      actorId_ = 0;
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            UserID = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            IsFirst = input.ReadBool();
+            break;
+          }
+          case 720: {
+            RpcId = input.ReadInt32();
+            break;
+          }
+          case 744: {
+            ActorId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public partial class Actor_SetMultiples_Ntt : pb::IMessage {
+    private static readonly pb::MessageParser<Actor_SetMultiples_Ntt> _parser = new pb::MessageParser<Actor_SetMultiples_Ntt>(() => (Actor_SetMultiples_Ntt)MessagePool.Instance.Fetch(typeof(Actor_SetMultiples_Ntt)));
+    public static pb::MessageParser<Actor_SetMultiples_Ntt> Parser { get { return _parser; } }
+
+    private int rpcId_;
+    public int RpcId {
+      get { return rpcId_; }
+      set {
+        rpcId_ = value;
+      }
+    }
+
+    private long actorId_;
+    public long ActorId {
+      get { return actorId_; }
+      set {
+        actorId_ = value;
+      }
+    }
+
+    private int multiples_;
+    public int Multiples {
+      get { return multiples_; }
+      set {
+        multiples_ = value;
+      }
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Multiples != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Multiples);
+      }
+      if (RpcId != 0) {
+        output.WriteRawTag(208, 5);
+        output.WriteInt32(RpcId);
+      }
+      if (ActorId != 0L) {
+        output.WriteRawTag(232, 5);
+        output.WriteInt64(ActorId);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (RpcId != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(RpcId);
+      }
+      if (ActorId != 0L) {
+        size += 2 + pb::CodedOutputStream.ComputeInt64Size(ActorId);
+      }
+      if (Multiples != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Multiples);
+      }
+      return size;
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      multiples_ = 0;
+      rpcId_ = 0;
+      actorId_ = 0;
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            Multiples = input.ReadInt32();
+            break;
+          }
+          case 720: {
+            RpcId = input.ReadInt32();
+            break;
+          }
+          case 744: {
+            ActorId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   /// <summary>
   ///----ET
   /// </summary>
