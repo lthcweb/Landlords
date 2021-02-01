@@ -90,6 +90,8 @@
     <Compile Include="Assets\Model\Landlords\Handler\Actor07_Grab_GamerLandlordSelect_NttHandler.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\Actor08_Grab_SetLandlord_NttHandler.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\Actor09_PlayCardAuthority_NttHandler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor10_PlayCardGamer_NttHandler.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor11_DontPlayCardGamer_NttHandler.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\LandlordsMatcherPlusOne_Handler.cs" />
     <Compile Include="Assets\Model\Landlords\Handler\LandlordsMatcherReduceOne_Handler.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\Event\CancelHandCardEvent.cs" />
@@ -99,6 +101,8 @@
     <Compile Include="Assets\Model\Landlords\LandUI\LandInteraction\LandInteractionFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLobby\LandLobbyComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLobby\LandLobbyFactory.cs" />
+    <Compile Include="Assets\Model\Landlords\LandUI\LandLogin\FUILandLoginComponent.cs" />
+    <Compile Include="Assets\Model\Landlords\LandUI\LandLogin\FUILandLoginFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLogin\LandLoginComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandLogin\LandLoginFactory.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandRoom\LandRoomComponent.cs" />

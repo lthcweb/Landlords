@@ -582,7 +582,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1953266704}
   - component: {fileID: 1953266707}
-  - component: {fileID: 1953266706}
   - component: {fileID: 1953266705}
   m_Layer: 5
   m_Name: Stage Camera
@@ -599,7 +598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953266703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.981482, y: -5, z: 0}
+  m_LocalPosition: {x: 7.569316, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 575235020}
@@ -618,14 +617,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constantSize: 1
---- !u!81 &1953266706
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953266703}
-  m_Enabled: 1
 --- !u!20 &1953266707
 Camera:
   m_ObjectHideFlags: 0

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2630074857
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9bf206e54e1eb53f8c279ad7583e8b0a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2fb5e9d95943c36c35f2f3afcdcb21e6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/FairyGUI/LandFUI_tmjj2n.mp3
+- Assets/Res/FairyGUI/LandFUI_fui.bytes
+- Assets/Res/FairyGUI/LandFUI_atlas0.png
+Dependencies: []

@@ -115,6 +115,14 @@ message Actor_SetMultiples_Ntt // IActorMessage
     int32 Multiples = 1;
 }
 
+message Actor_GamerPlayCard_Ntt // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+	int64 UserID = 1;
+	repeated ETModel.Card Cards = 2;
+}
+
 //----ET
 message Actor_Test // IActorMessage
 {

@@ -221,5 +221,34 @@ namespace ETHotfix
             room.Broadcast(new Actor_AuthorityGrabLandlord_Ntt() { UserID = firstAuthority });
         }
 
+        /// <summary>
+        /// 判断出牌后游戏继续or结束
+        /// </summary>
+        public static void Continue(this GameControllerComponent self, Gamer lastGamer)
+        {
+            Room room = self.GetParent<Room>();
+            OrderControllerComponent orderController = room.GetComponent<OrderControllerComponent>();
+
+            //是否结束,当前出牌者手牌数为0时游戏结束
+            bool isEnd = lastGamer.GetComponent<HandCardsComponent>().CardsCount == 0;
+            if (isEnd)
+            {
+                //当前最大出牌者为赢家
+                Identity winnerIdentity = room.GetGamerFromUserID(orderController.Biggest).GetComponent<HandCardsComponent>().AccessIdentity;
+                //List<GamerScore> gamersScore = new List<GamerScore>();
+
+                //游戏结束所有玩家摊牌
+                //...
+                //self.GameOver(gamersScore, winnerIdentity);
+            }
+            else
+            {
+                //轮到下位玩家出牌
+                orderController.Biggest = lastGamer.UserID;
+                orderController.Turn();
+                room.Broadcast(new Actor_AuthorityPlayCard_Ntt() { UserID = orderController.CurrentAuthority, IsFirst = false });
+            }
+        }
+
     }
 }

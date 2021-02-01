@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3029854886
+CRC: 3865971246
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -28,4 +28,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_8:
       Name: landinteraction.unity3d
+      Dependencies: {}
+    Info_9:
+      Name: landfui.unity3d
       Dependencies: {}

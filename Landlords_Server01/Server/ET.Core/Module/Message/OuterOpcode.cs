@@ -55,6 +55,9 @@ namespace ETModel
 	[Message(OuterOpcode.Actor_SetMultiples_Ntt)]
 	public partial class Actor_SetMultiples_Ntt : IActorMessage {}
 
+	[Message(OuterOpcode.Actor_GamerPlayCard_Ntt)]
+	public partial class Actor_GamerPlayCard_Ntt : IActorMessage {}
+
 //----ET
 	[Message(OuterOpcode.Actor_Test)]
 	public partial class Actor_Test : IActorMessage {}
@@ -124,21 +127,22 @@ namespace ETModel
 		 public const ushort Actor_SetLandlord_Ntt = 113;
 		 public const ushort Actor_AuthorityPlayCard_Ntt = 114;
 		 public const ushort Actor_SetMultiples_Ntt = 115;
-		 public const ushort Actor_Test = 116;
-		 public const ushort C2M_TestRequest = 117;
-		 public const ushort M2C_TestResponse = 118;
-		 public const ushort Actor_TransferRequest = 119;
-		 public const ushort Actor_TransferResponse = 120;
-		 public const ushort C2G_EnterMap = 121;
-		 public const ushort G2C_EnterMap = 122;
-		 public const ushort UnitInfo = 123;
-		 public const ushort M2C_CreateUnits = 124;
-		 public const ushort Frame_ClickMap = 125;
-		 public const ushort M2C_PathfindingResult = 126;
-		 public const ushort C2R_Ping = 127;
-		 public const ushort R2C_Ping = 128;
-		 public const ushort G2C_Test = 129;
-		 public const ushort C2M_Reload = 130;
-		 public const ushort M2C_Reload = 131;
+		 public const ushort Actor_GamerPlayCard_Ntt = 116;
+		 public const ushort Actor_Test = 117;
+		 public const ushort C2M_TestRequest = 118;
+		 public const ushort M2C_TestResponse = 119;
+		 public const ushort Actor_TransferRequest = 120;
+		 public const ushort Actor_TransferResponse = 121;
+		 public const ushort C2G_EnterMap = 122;
+		 public const ushort G2C_EnterMap = 123;
+		 public const ushort UnitInfo = 124;
+		 public const ushort M2C_CreateUnits = 125;
+		 public const ushort Frame_ClickMap = 126;
+		 public const ushort M2C_PathfindingResult = 127;
+		 public const ushort C2R_Ping = 128;
+		 public const ushort R2C_Ping = 129;
+		 public const ushort G2C_Test = 130;
+		 public const ushort C2M_Reload = 131;
+		 public const ushort M2C_Reload = 132;
 	}
 }
